@@ -63,7 +63,7 @@ function upload_files($table_name,$reference_id){
 function file_image_path($table_name, $file_name, $file_type, $file_size, $file_temp_path) {
     
     //$directory_path = FILE_IMAGE_DIRECTORY . '/'.$table_name.'/';
-    $directory_path = $table_name.'/images/';
+    $directory_path = SERVER_NAME.DIRECTORY_SEPARATOR.$table_name.'/images/';
     $uploadOk = 1;
     $file_upload_info = array();
     $target_file = $directory_path . basename($file_name);

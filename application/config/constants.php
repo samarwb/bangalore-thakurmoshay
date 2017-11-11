@@ -87,6 +87,7 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 
 
 // Vendorconnect Defined Constants ........
+$server_name = $_SERVER['SERVER_NAME'];
 $server_domain = 'http://'.$_SERVER['SERVER_NAME'];
 $document_root = $_SERVER['DOCUMENT_ROOT'];
 define('DOMAIN_NAME', $server_domain);
@@ -94,6 +95,8 @@ define('DOMAIN_NAME', $server_domain);
 define('STATUS_ACTIVE', 1);
 
 define('STATUS_BLOCK', 0);
+
+define('SERVER_NAME', $server_name);
 
 define('FILE_DIRECTORY', $document_root.'/files');
 
@@ -119,7 +122,7 @@ define('INSTITUTION_IMAGE_DIRECTORY', 'images/institution/');
 
 define('ALBUM_DEFAULT_IMAGE', '/images/default/album.png');
 
-define('ALBUM_IMAGE_DIRECTORY', 'institution_album/images/');
+define('ALBUM_IMAGE_DIRECTORY', $server_name.'/institution_album/images/');
 
 define('IMAGE_FILE_SIZE', 5000000);
 
