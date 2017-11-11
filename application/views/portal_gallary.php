@@ -17,7 +17,7 @@
                                         <ul class="thumbnails">
 
                                             <?php foreach ($albums as $album) {
-                                                $image_path = !empty($album->file_path) ? ALBUM_IMAGE_DIRECTORY . $album->file_path : ALBUM_DEFAULT_IMAGE;
+                                                $image_path = !empty($album->file_path) ?  $album->file_path : base_url().ALBUM_DEFAULT_IMAGE;
                                                 ?>
 
 
@@ -25,7 +25,7 @@
                                                     <div class="thumbnail">
                                                         <div class="blockDtl">
                                                             <h4 class="gallary_title"><?php print $album->album_name; ?></h4>
-                                                            <img class="gallary_pics zoom" src="<?php print base_url() . $image_path; ?>" alt="<?php print $album->album_name; ?>"/>
+                                                            <img class="gallary_pics zoom" src="<?php print  $image_path; ?>" alt="<?php print $album->album_name; ?>"/>
                                                             <p class="gallary_description">
                                                                 <?php print strlen($album->album_desc) > 100 ? substr($album->album_desc, 0, 100).'...' : $album->album_desc ; ?> 
                                                             </p>
