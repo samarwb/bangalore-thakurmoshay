@@ -43,13 +43,7 @@ function upload_to_cloud($file, $key, $tag = null) {
     $result = $client->putObject ( $object );
     $objecturl = $result ['ObjectURL'];
 
-    if (substr($objecturl, 0, strlen($prefix)) == $prefix) {
-        $str = substr($objecturl, strlen($prefix));
-        $str = 's3://'.$str;
-        return $str;
-    }else
-
-        return $objecturl;
+     return $objecturl;
 }
 function getclient() {
     $s3Client = new S3Client ( [

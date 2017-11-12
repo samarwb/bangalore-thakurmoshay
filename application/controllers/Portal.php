@@ -21,7 +21,7 @@ class Portal extends CI_Controller {
         public function about_me(){
             $this->load->view('about_me.php');
         }
-        public function gallary(){
+        public function gallery(){
             $album = $this->admin_model_get->get_all_albums();
             $all_values['albums'] = $album;
             $this->load->view('portal_gallary.php',$all_values);
@@ -63,4 +63,6 @@ class Portal extends CI_Controller {
             redirect("portal/contact_me");
         }
     }
+
+
 }

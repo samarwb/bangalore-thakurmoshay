@@ -102,8 +102,8 @@
                                     <li class="<?php arg(0) == '' ? print 'active'  : print ''; ?>"><a href="<?php print base_url(); ?>">Home</a></li>
                                     <li class="<?php arg(2) == 'puja_service' ? print 'active'  : print ''; ?>"><a href="<?php print site_url('portal/puja_service'); ?>">Puja Services</a></li>
                                     <li class="<?php arg(2) == 'about_me' ? print 'active'  : print ''; ?>"><a href="<?php print site_url('portal/about_me'); ?>">About Me</a></li>
-                                    <li class="<?php arg(2) == 'gallary' ? print 'active'  : print ''; ?>"><a href="<?php print site_url('portal/gallary'); ?>">Gallary</a></li>
-                                    <li class="<?php arg(2) == 'blog' ? print 'active'  : print ''; ?>"><a href="<?php print site_url('portal/blog'); ?>">Blog</a></li>
+                                    <li class="<?php arg(2) == 'gallery' ? print 'active'  : print ''; ?>"><a href="<?php print site_url('portal/gallery'); ?>">Gallery</a></li>
+                                    <li class="<?php arg(2) == 'blogs' ? print 'active'  : print ''; ?>"><a href="<?php print site_url('portal/blogs'); ?>">Blog</a></li>
                                     <li class="<?php arg(2) == 'contact_me' ? print 'active'  : print ''; ?>"><a href="<?php print site_url('portal/contact_me'); ?>">Contact Me</a></li>
                                 </ul>
                             </div>

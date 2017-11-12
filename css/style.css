@@ -191,3 +191,8 @@ increase left & right margins a bit**/
 .thumbnails .blockDtl{
     min-height: 340px;
 }
+
+.content-md {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
