@@ -1,6 +1,6 @@
 <?php switch (arg(2)) {
     case 'gallary':
-        $desc = 'Gallary <small> :My recent pujas</small>';
+        $desc = 'Gallary <small> :My recent work</small>';
 
          break;
      case 'puja_service':
