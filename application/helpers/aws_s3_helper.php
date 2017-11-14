@@ -50,8 +50,8 @@ function getclient() {
         'version' => 'latest',
         'region' => 'ap-southeast-1',
         'credentials' => [
-            'key' => 'AKIAITZIBH3YOFYLFPRA',
-            'secret' => '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'
+            'key' => AWS_S3_KEY,
+            'secret' => AWS_S3_SECRET
         ]
     ] );
     if ($s3Client == null)
