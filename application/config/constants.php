@@ -139,6 +139,6 @@ define('GOOGLE_API_APP_KEY', 'AIzaSyB62_xjCXqRpG4lGtXhGuFjVDDjYb8sOoA');
 define('USER_UNFIELD_VALUE', 'Unfield');
 
 // AWS S3 access
-define('AWS_S3_KEY', 'AKIAITZIBH3YOFYLFPRA');
+define('AWS_S3_KEY', '**');
 
-define('AWS_S3_SECRET', 'QmtcaZ4jwj6y/mIgSYdIoNI+UzSDRH9IQS3i3t8W');
+define('AWS_S3_SECRET', '**');
