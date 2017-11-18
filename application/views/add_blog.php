@@ -33,29 +33,6 @@ include 'admin_sidebar.php';
                                         <textarea name ="blogdesc"   class="form-control group_parent_text_field"><?php print ucfirst(isset($single_blog) ? $single_blog[0]->blog_description : '' ) ?></textarea>
                                         <p class="help-block">Enter description for this Blog.</p>
                                     </div>
-                                    <div class="form-group">
-                                        <label>Select stream:</lable>
-                                            <div class="panel-body">
-                                                <?php
-                                                if (!empty($groups)) {
-                                                    foreach ($groups as $key => $group) {
-                                                ?>
-                                                <div class="btn-group" data-toggle="buttons">
-                                                   <label class="btn <?php ($key == 0) ? print 'active' : print ''; ?>">
-                                                        <input type="checkbox" value='<?php print $group->gid; ?>'>
-                                                            <i class="fa fa-square-o fa-2x"></i>
-                                                            <i class="fa fa-check-square-o fa-2x"></i>
-                                                            <span><?php print ucfirst($group->group_name); ?></span>
-                                                    </label>
-                                                </div>
-                                                <?php
-                                                    }
-                                                    } else {
-                                                        print 'No groups Available.';
-                                                    }
-                                                    ?>
-                                            </div>
-                                    </div>
                                     <?php  include 'multiple_image_upload.php'; ?>
                                     <div class="form-group">
                                         <label>Status</label>

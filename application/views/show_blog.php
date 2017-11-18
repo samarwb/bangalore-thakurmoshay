@@ -23,12 +23,12 @@ include 'admin_sidebar.php';
                             <?php if(!empty($blogs)){ 
                                 
                                 foreach($blogs as $blog){
-                                    $image_path = !empty($blog->file_path)? BLOG_IMAGE_DIRECTORY.$blog->file_path : BLOG_DEFAULT_IMAGE;?>
+                                    $image_path = !empty($blog->file_path)? $blog->file_path : base_url().BLOG_DEFAULT_IMAGE;?>
                             <table class="table" id="dataTables">
                                 <tbody>
                                     <tr class="">
                                         <td rowspan="2" class="img_cell">
-                                            <img src="<?php echo base_url().$image_path;?>" alt="" height="55" width="55" />
+                                            <img src="<?php echo $image_path;?>" alt="" height="55" width="55" />
                                         </td>
                                         <td colspan="2"><span class="title_style"><?php print ucfirst($blog->blog_title);?></td>
                                         <td class="edit_cell"><a href="<?php print site_url('admin/addblog/'.$blog->blog_id); ?>"><div class="group_edit_class edit_class"></div></a></td>

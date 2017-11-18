@@ -14,20 +14,16 @@
         <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-        <link id="callCss" rel="stylesheet" href="<?php print base_url(); ?>themes/current/bootstrap.min.css" type="text/css" media="screen"/>
-        <link href="<?php print base_url(); ?>themes/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
-        <link href="<?php print base_url(); ?>themes/css/font-awesome.css" rel="stylesheet" type="text/css">
-        <link href="<?php print base_url(); ?>themes/css/base.css" rel="stylesheet" type="text/css">
+        <link id="callCss" rel="stylesheet" href="<?php print base_url(); ?>css/bootstrap.min.css" type="text/css" media="screen"/>
+        <link href="<?php print base_url(); ?>css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+        <link href="<?php print base_url(); ?>font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="<?php print base_url(); ?>css/base.css" rel="stylesheet" type="text/css">
         <link href="<?php print base_url(); ?>css/style.css" rel="stylesheet" type="text/css">
-        <style type="text/css" id="enject"></style>
 
-        <script src="<?php print base_url(); ?>themes/js/jquery-1.8.3.min.js"></script>
-        <script src="<?php print base_url(); ?>themes/js/bootstrap.min.js"></script>
-        <script src="<?php print base_url(); ?>themes/js/bootstrap-tooltip.js"></script>
-        <script src="<?php print base_url(); ?>themes/js/bootstrap-popover.js"></script>
-        <script src="<?php print base_url(); ?>themes/js/business_ltd_1.0.js"></script>
-        <link rel="stylesheet" href="<?php print base_url(); ?>themes/switch/themeswitch.css" type="text/css" media="screen" />
-        <script src="<?php print base_url(); ?>themes/switch/theamswitcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="<?php print base_url(); ?>js/jquery-1.8.3.min.js"></script>
+        <script src="<?php print base_url(); ?>js/bootstrap.min.js"></script>
+        <script src="<?php print base_url(); ?>js/business_ltd_1.0.js"></script>
+
     </head>
     <body>
         <div id="header">

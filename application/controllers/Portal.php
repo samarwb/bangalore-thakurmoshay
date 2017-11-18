@@ -64,5 +64,10 @@ class Portal extends CI_Controller {
         }
     }
 
+    public function blogs(){
+        $this->load->view('portal_blog');
+
+    }
+
 
 }

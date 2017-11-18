@@ -1,306 +1,171 @@
 <?php include 'portal_header.php'; ?>
 <?php include 'portal_subheader.php'; ?>
-
+    <link href="<?php print base_url(); ?>css/blog.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Page banner end -->
     <section id="bodySection">
         <div id="sectionTwo">
-            <!--=== Blog Posts ===-->
-            <div class="container content-md">
-                <div class="row">
-                    <!-- Blog All Posts -->
-                    <div class="col-md-9">
-                        <!-- News v3 -->
-                        <div class="row margin-bottom-20">
-                            <div class="col-sm-5 sm-margin-bottom-20">
-                                <img class="img-responsive" src="<?php print base_url(); ?>images/blogs/default/img12.jpg" alt="">
+
+            <!--=== Content Part ===-->
+            <div class="container content">
+                <ul class="timeline-v1">
+                    <li>
+                        <div class="timeline-badge primary"><i class="glyphicon glyphicon-record fa fa-dot-circle-o"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <img class="img-responsive" src="<?php print base_url(); ?>images/blogs/default/img12.jpg" alt=""/>
                             </div>
-                            <div class="col-sm-7 news-v3">
-                                <div class="news-v3-in-sm no-padding">
-                                    <ul class="list-inline posted-info">
-                                        <li>By Alexander Jenni</li>
-                                        <li>In <a href="#">Design</a></li>
-                                        <li>Posted January 24, 2015</li>
-                                    </ul>
-                                    <h2><a href="#">Incredible standard post “IMAGE”</a></h2>
-                                    <p>Nullam elementum tincidunt massa, a pulvinar leo ultricies ut. Ut fringilla lectus tellus, imperdiet molestie est volutpat at. Sed viverra cursus nibh, sed consectetur ipsum sollicitudin non metus inmi efficitur...</p>
-                                    <ul class="post-shares">
-                                        <li>
-                                            <a href="#">
-                                                <i class="rounded-x icon-speech"></i>
-                                                <span>5</span>
-                                            </a>
-                                        </li>
-                                        <li><a href="#"><i class="rounded-x icon-share"></i></a></li>
-                                        <li><a href="#"><i class="rounded-x icon-heart"></i></a></li>
-                                    </ul>
-                                </div>
+                            <div class="timeline-body text-justify">
+                                <h2 class="font-light"><a href="#">Printing and Type Setting Industry</a></h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <a class="btn-u btn-u-sm" href="#">Read More</a>
                             </div>
-                        </div><!--/end row-->
-                        <!-- End News v3 -->
-
-                        <div class="clearfix margin-bottom-20"><hr></div>
-
-                        <!-- News v3 -->
-                        <div class="row margin-bottom-20">
-                            <div class="col-sm-5 sm-margin-bottom-20">
-                                <div class="carousel slide" data-ride="carousel" id="blog-carousel">
-                                    <!-- Indicators -->
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#blog-carousel" data-slide-to="0" class="active rounded-x"></li>
-                                        <li data-target="#blog-carousel" data-slide-to="1" class="rounded-x"></li>
-                                        <li data-target="#blog-carousel" data-slide-to="2" class="rounded-x"></li>
-                                    </ol>
-
-                                    <!-- Wrapper for slides -->
-                                    <div class="carousel-inner" role="listbox">
+                            <div class="timeline-footer">
+                                <ul class="list-unstyled list-inline blog-info">
+                                    <li><i class="fa fa-clock-o"></i> March 28, 2014</li>
+                                    <li><i class="fa fa-comments-o"></i> <a href="#">7 Comments</a></li>
+                                </ul>
+                                <a class="likes" href="#"><i class="fa fa-heart"></i>239</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-badge primary"><i class="glyphicon glyphicon-record invert fa fa-dot-circle-o"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <img class="img-responsive" src="<?php print base_url(); ?>images/blogs/default/img6.jpg" alt=""/>
+                            </div>
+                            <div class="timeline-body text-justify">
+                                <h2 class="font-light"><a href="#">Standards of Font Sizes</a></h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <a class="btn-u btn-u-sm" href="#">Read More</a>
+                            </div>
+                            <div class="timeline-footer">
+                                <ul class="list-unstyled list-inline blog-info">
+                                    <li><i class="fa fa-clock-o"></i> March 16, 2014</li>
+                                    <li><i class="fa fa-comments-o"></i> <a href="#">12 Comments</a></li>
+                                </ul>
+                                <a class="likes" href="#"><i class="fa fa-heart"></i>87</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge primarya"><i class="glyphicon glyphicon-record fa fa-dot-circle-o"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <div class="carousel slide carousel-v1" id="myCarousel">
+                                    <div class="carousel-inner">
                                         <div class="item active">
-                                            <img src="<?php print base_url(); ?>images/blogs/default/img19.jpg" alt="">
+                                            <img class="img-responsive" src="<?php print base_url(); ?>images/blogs/default/img7.jpg" alt=""/>
+                                            <div class="carousel-caption">
+                                                <p>Facilisis odio, dapibus ac justo acilisis gestinas.</p>
+                                            </div>
                                         </div>
                                         <div class="item">
-                                            <img src="<?php print base_url(); ?>images/blogs/default/img3.jpg" alt="">
+                                            <img class="img-responsive" src="<?php print base_url(); ?>images/blogs/default/img6.jpg" alt=""/>
+                                            <div class="carousel-caption">
+                                                <p>Mussum ipsum cacilds, vidis litro abertis.</p>
+                                            </div>
                                         </div>
                                         <div class="item">
-                                            <img src="<?php print base_url(); ?>images/blogs/default/img24.jpg" alt="">
+                                            <img class="img-responsive" src="<?php print base_url(); ?>images/blogs/default/img9.jpg" alt=""/>
+                                            <div class="carousel-caption">
+                                                <p>Justo cras odio apibus ac afilisis lingestas de.</p>
+                                            </div>
                                         </div>
+                                    </div>
+
+                                    <div class="carousel-arrow">
+                                        <a data-slide="prev" href="#myCarousel" class="left carousel-control">
+                                            <i class="fa fa-angle-left"></i>
+                                        </a>
+                                        <a data-slide="next" href="#myCarousel" class="right carousel-control">
+                                            <i class="fa fa-angle-right"></i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-7 news-v3">
-                                <div class="news-v3-in-sm no-padding">
-                                    <ul class="list-inline posted-info">
-                                        <li>By Luke Etheridge</li>
-                                        <li>In <a href="#">Design</a></li>
-                                        <li>Posted January 24, 2015</li>
-                                    </ul>
-                                    <h2><a href="#">Amazing post “IMAGE-SLIDER”</a></h2>
-                                    <p>Nullam elementum tincidunt massa, a pulvinar leo ultricies ut. Ut fringilla lectus tellus, imperdiet molestie est volutpat at. Sed viverra cursus nibh, sed consectetur ipsum sollicitudin non metus inmi efficitur...</p>
-                                    <ul class="post-shares">
-                                        <li>
-                                            <a href="#">
-                                                <i class="rounded-x icon-speech"></i>
-                                                <span>5</span>
-                                            </a>
-                                        </li>
-                                        <li><a href="#"><i class="rounded-x icon-share"></i></a></li>
-                                        <li><a href="#"><i class="rounded-x icon-heart"></i></a></li>
-                                    </ul>
+                            <div class="timeline-body text-justify">
+                                <h2 class="font-light"><a href="#">Make a Type Specimen Book</a></h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <a class="btn-u btn-u-sm" href="#">Read More</a>
+                            </div>
+                            <div class="timeline-footer">
+                                <ul class="list-unstyled list-inline blog-info">
+                                    <li><i class="fa fa-clock-o"></i> November 06, 2014</li>
+                                    <li><i class="fa fa-comments-o"></i> <a href="#">37 Comments</a></li>
+                                </ul>
+                                <a class="likes" href="#"><i class="fa fa-heart"></i>121</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-badge primary"><i class="glyphicon glyphicon-record fa fa-dot-circle-o"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <img class="img-responsive" src="<?php print base_url(); ?>images/blogs/default/img3.jpg" alt=""/>
+                            </div>
+                            <div class="timeline-body text-justify">
+                                <h2 class="font-light"><a href="#">Gallery of Type and Scrambled</a></h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <a class="btn-u btn-u-sm" href="#">Read More</a>
+                            </div>
+                            <div class="timeline-footer">
+                                <ul class="list-unstyled list-inline blog-info">
+                                    <li><i class="fa fa-clock-o"></i> November 02, 2014</li>
+                                    <li><i class="fa fa-comments-o"></i> <a href="#">24 Comments</a></li>
+                                </ul>
+                                <a class="likes" href="#"><i class="fa fa-heart"></i>34</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge primary"><i class="glyphicon glyphicon-record invert fa fa-dot-circle-o"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <img class="img-responsive" src="<?php print base_url(); ?>images/blogs/default/img1.jpg" alt=""/>
+                            </div>
+                            <div class="timeline-body text-justify">
+                                <h2 class="font-light"><a href="#">Lorem Ipsum is Simple</a></h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <a class="btn-u btn-u-sm" href="#">Read More</a>
+                            </div>
+                            <div class="timeline-footer primary">
+                                <ul class="list-unstyled list-inline blog-info">
+                                    <li><i class="fa fa-clock-o"></i> February 26, 2014</li>
+                                    <li><i class="fa fa-comments-o"></i> <a href="#">93 Comments</a></li>
+                                </ul>
+                                <a class="likes" href="#"><i class="fa fa-heart"></i>355</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-badge primary"><i class="glyphicon glyphicon-record invert fa fa-dot-circle-o"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <!-- 16:9 aspect ratio -->
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe src="http://player.vimeo.com/video/9679622" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
                                 </div>
                             </div>
-                        </div><!--/end row-->
-                        <!-- End News v3 -->
-
-                        <div class="clearfix margin-bottom-20"><hr></div>
-
-                        <!-- News v3 -->
-                        <div class="row margin-bottom-20">
-                            <div class="col-sm-5 sm-margin-bottom-20">
-                                <div class="responsive-video">
-                                    <iframe src="//player.vimeo.com/video/93094247?title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                                </div>
+                            <div class="timeline-body">
+                                <h2 class="font-light"><a href="#">Make it Only Responsive</a></h2>
+                                <p>I only make it responsive and remove the empty spaces to be more like Facebook timeline!</p>
+                                <a class="btn-u" href="#">Read More</a>
                             </div>
-                            <div class="col-sm-7 news-v3">
-                                <div class="news-v3-in-sm no-padding">
-                                    <ul class="list-inline posted-info">
-                                        <li>By Alexander Jenni</li>
-                                        <li>In <a href="#">Design</a></li>
-                                        <li>Posted January 24, 2015</li>
-                                    </ul>
-                                    <h2><a href="#">Awesome post “VIDEO”</a></h2>
-                                    <p>Nullam elementum tincidunt massa, a pulvinar leo ultricies ut. Ut fringilla lectus tellus, imperdiet molestie est volutpat at. Sed viverra cursus nibh, sed consectetur ipsum sollicitudin non metus inmi efficitur...</p>
-                                    <ul class="post-shares">
-                                        <li>
-                                            <a href="#">
-                                                <i class="rounded-x icon-speech"></i>
-                                                <span>5</span>
-                                            </a>
-                                        </li>
-                                        <li><a href="#"><i class="rounded-x icon-share"></i></a></li>
-                                        <li><a href="#"><i class="rounded-x icon-heart"></i></a></li>
-                                    </ul>
-                                </div>
+                            <div class="timeline-footer primary">
+                                <ul class="list-unstyled list-inline blog-info">
+                                    <li><i class="fa fa-clock-o"></i> November 29, 2013</li>
+                                    <li><i class="fa fa-comments-o"></i> <a href="#">162 Comments</a></li>
+                                </ul>
+                                <a class="likes" href="#"><i class="fa fa-heart"></i>798</a>
                             </div>
-                        </div><!--/end row-->
-                        <!-- End News v3 -->
-
-                        <div class="clearfix margin-bottom-20"><hr></div>
-
-                        <!-- News v3 -->
-                        <div class="row margin-bottom-20">
-                            <div class="col-sm-5 sm-margin-bottom-20">
-                                <img class="img-responsive" src="<?php print base_url(); ?>images/blogs/default/img18.jpg" alt="">
-                            </div>
-                            <div class="col-sm-7 news-v3">
-                                <div class="news-v3-in-sm no-padding">
-                                    <ul class="list-inline posted-info">
-                                        <li>By Luke Etheridge</li>
-                                        <li>In <a href="#">Design</a></li>
-                                        <li>Posted January 24, 2015</li>
-                                    </ul>
-                                    <h2><a href="#">Wonderful post “IMAGE”</a></h2>
-                                    <p>Nullam elementum tincidunt massa, a pulvinar leo ultricies ut. Ut fringilla lectus tellus, imperdiet molestie est volutpat at. Sed viverra cursus nibh, sed consectetur ipsum sollicitudin non metus inmi efficitur...</p>
-                                    <ul class="post-shares">
-                                        <li>
-                                            <a href="#">
-                                                <i class="rounded-x icon-speech"></i>
-                                                <span>5</span>
-                                            </a>
-                                        </li>
-                                        <li><a href="#"><i class="rounded-x icon-share"></i></a></li>
-                                        <li><a href="#"><i class="rounded-x icon-heart"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div><!--/end row-->
-                        <!-- End News v3 -->
-
-                        <div class="clearfix margin-bottom-20"><hr></div>
-
-                        <!-- News v3 -->
-                        <div class="row margin-bottom-20">
-                            <div class="col-sm-5 sm-margin-bottom-20">
-                                <img class="img-responsive" src="<?php print base_url(); ?>images/blogs/default/img3.jpg" alt="">
-                            </div>
-                            <div class="col-sm-7 news-v3">
-                                <div class="news-v3-in-sm no-padding">
-                                    <ul class="list-inline posted-info">
-                                        <li>By Alexander Jenni</li>
-                                        <li>In <a href="#">Design</a></li>
-                                        <li>Posted January 24, 2015</li>
-                                    </ul>
-                                    <h2><a href="#">Incredible standard post “IMAGE”</a></h2>
-                                    <p>Nullam elementum tincidunt massa, a pulvinar leo ultricies ut. Ut fringilla lectus tellus, imperdiet molestie est volutpat at. Sed viverra cursus nibh, sed consectetur ipsum sollicitudin non metus inmi efficitur...</p>
-                                    <ul class="post-shares">
-                                        <li>
-                                            <a href="#">
-                                                <i class="rounded-x icon-speech"></i>
-                                                <span>5</span>
-                                            </a>
-                                        </li>
-                                        <li><a href="#"><i class="rounded-x icon-share"></i></a></li>
-                                        <li><a href="#"><i class="rounded-x icon-heart"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div><!--/end row-->
-                        <!-- End News v3 -->
-
-                        <div class="clearfix margin-bottom-20"><hr></div>
-
-                        <!-- Pager v3 -->
-                        <ul class="pager pager-v3 pager-sm no-margin-bottom">
-                            <li class="previous"><a href="#">&larr; Older</a></li>
-                            <li class="page-amount">1 of 7</li>
-                            <li class="next"><a href="#">Newer &rarr;</a></li>
-                        </ul>
-                        <!-- End Pager v3 -->
-                    </div>
-                    <!-- End Blog All Posts -->
-
-                    <!-- Blog Sidebar -->
-                    <div class="col-md-3">
-                        <div class="headline-v2 bg-color-light"><h2>Trending</h2></div>
-                        <!-- Trending -->
-                        <ul class="list-unstyled blog-trending margin-bottom-50">
-                            <li>
-                                <h3><a href="#">Proin dapibus ornare magna.</a></h3>
-                                <small>19 Jan, 2015 / <a href="#">Hi-Tech,</a> <a href="#">Technology</a></small>
-                            </li>
-                            <li>
-                                <h3><a href="#">Fusce at diam ante.</a></h3>
-                                <small>17 Jan, 2015 / <a href="#">Artificial Intelligence</a></small>
-                            </li>
-                            <li>
-                                <h3><a href="#">Donec quis consequat magna...</a></h3>
-                                <small>5 Jan, 2015 / <a href="#">Web,</a> <a href="#">Webdesign</a></small>
-                            </li>
-                        </ul>
-                        <!-- End Trending -->
-
-                        <div class="headline-v2 bg-color-light"><h2>Latest Posts</h2></div>
-                        <!-- Latest Links -->
-                        <ul class="list-unstyled blog-latest-posts margin-bottom-50">
-                            <li>
-                                <h3><a href="#">The point of using Lorem Ipsum</a></h3>
-                                <small>19 Jan, 2015 / <a href="#">Hi-Tech,</a> <a href="#">Technology</a></small>
-                                <p>Phasellus ullamcorper pellentesque ex. Cras venenatis elit orci, vitae dictum elit egestas a. Nunc nec auctor mauris, semper scelerisque nibh.</p>
-                            </li>
-                            <li>
-                                <h3><a href="#">Many desktop publishing packages...</a></h3>
-                                <small>23 Jan, 2015 / <a href="#">Art,</a> <a href="#">Lifestyles</a></small>
-                                <p>Integer vehicula sed justo ac dapibus. In sodales nunc non varius accumsan.</p>
-                            </li>
-                        </ul>
-                        <!-- End Latest Links -->
-
-                        <div class="headline-v2 bg-color-light"><h2>Tags</h2></div>
-                        <!-- Tags v2 -->
-                        <ul class="list-inline tags-v2 margin-bottom-50">
-                            <li><a href="#">Web Design</a></li>
-                            <li><a href="#">Economy</a></li>
-                            <li><a href="#">Sport</a></li>
-                            <li><a href="#">Marketing</a></li>
-                            <li><a href="#">Books</a></li>
-                            <li><a href="#">Elections</a></li>
-                            <li><a href="#">Flickr</a></li>
-                            <li><a href="#">Politics</a></li>
-                        </ul>
-                        <!-- End Tags v2 -->
-
-                        <div class="headline-v2 bg-color-light"><h2>Photostream</h2></div>
-                        <!-- Photostream -->
-                        <ul class="list-inline blog-photostream margin-bottom-50">
-                            <li>
-                                <a href="<?php print base_url(); ?>images/blogs/default/img22.jpg" rel="gallery" class="fancybox img-hover-v2" title="Image 1">
-                                    <span><img class="img-responsive" src="<?php print base_url(); ?>images/blogs/default/img22.jpg" alt=""></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="<?php print base_url(); ?>images/blogs/default/img23.jpg" rel="gallery" class="fancybox img-hover-v2" title="Image 2">
-                                    <span><img class="img-responsive" src="<?php print base_url(); ?>images/blogs/default/img23.jpg" alt=""></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="<?php print base_url(); ?>images/blogs/default/img4.jpg" rel="gallery" class="fancybox img-hover-v2" title="Image 3">
-                                    <span><img class="img-responsive" src="<?php print base_url(); ?>images/blogs/default/img4.jpg" alt=""></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="<?php print base_url(); ?>images/blogs/default/img9.jpg" rel="gallery" class="fancybox img-hover-v2" title="Image 4">
-                                    <span><img class="img-responsive" src="<?php print base_url(); ?>images/blogs/default/img9.jpg" alt=""></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="<?php print base_url(); ?>images/blogs/default/img25.jpg" rel="gallery" class="fancybox img-hover-v2" title="Image 5">
-                                    <span><img class="img-responsive" src="<?php print base_url(); ?>images/blogs/default/img25.jpg" alt=""></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="<?php print base_url(); ?>images/blogs/default/img6.jpg" rel="gallery" class="fancybox img-hover-v2" title="Image 6">
-                                    <span><img class="img-responsive" src="<?php print base_url(); ?>images/blogs/default/img6.jpg" alt=""></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="<?php print base_url(); ?>images/blogs/default/img20.jpg" rel="gallery" class="fancybox img-hover-v2" title="Image 7">
-                                    <span><img class="img-responsive" src="<?php print base_url(); ?>images/blogs/default/img20.jpg" alt=""></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="<?php print base_url(); ?>images/blogs/default/img3.jpg" rel="gallery" class="fancybox img-hover-v2" title="Image 8">
-                                    <span><img class="img-responsive" src="assets/img/main/img3.jpg" alt=""></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="<?php print base_url(); ?>images/blogs/default/img7.jpg" rel="gallery" class="fancybox img-hover-v2" title="Image 9">
-                                    <span><img class="img-responsive" src="<?php print base_url(); ?>images/blogs/default/img7.jpg" alt=""></span>
-                                </a>
-                            </li>
-                        </ul>
-                        <!-- End Photostream -->
-                    </div>
-                    <!-- End Blog Sidebar -->
-                </div>
-            </div>
-            <!--=== End Blog Posts ===-->
+                        </div>
+                    </li>
+                    <li class="clearfix" style="float: none;"></li>
+                </ul>
+            </div><!--/container-->
+            <!-- End Content Part -->
 
         </div>
     </section>

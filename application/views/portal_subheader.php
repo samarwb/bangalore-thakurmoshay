@@ -24,13 +24,13 @@
 		<h1 id="pageTitle"><?php print $desc; ?>
 		<span class="pull-right toolTipgroup">
 			<a href="#" data-placement="top" data-original-title="Find us on via facebook">
-                            <img style="width:45px" src="<?php print base_url().'themes/images/facebook.png' ;?>" alt="facebook" title="facebook">
+                            <img style="width:45px" src="<?php print base_url().'images/facebook.png' ;?>" alt="facebook" title="facebook">
                         </a>
 			<a href="#" data-placement="top" data-original-title="Find us on via twitter">
-                            <img style="width:45px" src="<?php print base_url().'themes/images/twitter.png' ;?>" alt="twitter" title="twitter">
+                            <img style="width:45px" src="<?php print base_url().'images/twitter.png' ;?>" alt="twitter" title="twitter">
                         </a>
 			<a href="#" data-placement="top" data-original-title="Find us on via youtube">
-                            <img style="width:45px" src="<?php print base_url().'themes/images/youtube.png' ;?>" alt="youtube" title="youtube">
+                            <img style="width:45px" src="<?php print base_url().'images/youtube.png' ;?>" alt="youtube" title="youtube">
                         </a>
 		</span>
 		</h1>
